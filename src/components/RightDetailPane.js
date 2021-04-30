@@ -36,7 +36,7 @@ function RightDetailPane(props) {
       <p>{field2}</p>
 
       <p style={styles.fieldTitle}>{details?.field3.length !== 0 ? "Field 3" : null} </p>
-      <p>{field3}</p>
+      {field3}
 
     </div>
   )
